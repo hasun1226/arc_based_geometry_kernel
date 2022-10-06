@@ -19,7 +19,7 @@ bezierCubic curve1, curve2;
 char mode = 'a';
 double scale_factor = 1;
 double x_translate = 0;
-double y_translate = 0; 
+double y_translate = 0;
 double lineseg = 50;
 double step = 100;
 bool mode_int = true;
@@ -120,7 +120,8 @@ void printResult() {
     string arc_int_str = "";
     if (arc_ints.size() == 0) {
         cout << "no intersection" << endl;
-    } else {
+    }
+    else {
         for (int i = 0; i < arc_ints.size(); i++) {
             arc_int_str += "Point(" + to_string(arc_ints[i].x) + ", " + to_string(arc_ints[i].y) + ")";
             if (i + 1 < arc_ints.size()) arc_int_str += ", ";
@@ -213,7 +214,8 @@ void init() {
         if (i == 0) {
             lines1.push_back(LineSeg{ pt, nullPt });
             lines2.push_back(LineSeg{ pt2, nullPt });
-        } else {
+        }
+        else {
             lines1.back().end = pt;
             lines2.back().end = pt2;
             if (i < lineseg) {

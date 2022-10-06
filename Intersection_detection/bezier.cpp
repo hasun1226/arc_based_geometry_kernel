@@ -41,7 +41,8 @@ std::vector<double> findExtremePt(const bezierCubic* curve, char ch) {
 		a = 3 * (curve->control_pts[1].x - curve->control_pts[0].x);
 		b = 3 * (curve->control_pts[2].x - curve->control_pts[1].x);
 		c = 3 * (curve->control_pts[3].x - curve->control_pts[2].x);
-	} else {
+	}
+	else {
 		a = 3 * (curve->control_pts[1].y - curve->control_pts[0].y);
 		b = 3 * (curve->control_pts[2].y - curve->control_pts[1].y);
 		c = 3 * (curve->control_pts[3].y - curve->control_pts[2].y);
@@ -53,7 +54,8 @@ std::vector<double> findExtremePt(const bezierCubic* curve, char ch) {
 	if (isEqual(denom, 0)) {
 		// linear formula
 		if (!isEqual(aSb, 0)) ret.push_back(round((a / (2 * aSb)) * 100) / 100);
-	} else {
+	}
+	else {
 		if (det >= 0) {
 			// return only if return value is real number
 			double ret1 = (aSb - sqrt(det)) / denom;
@@ -89,7 +91,8 @@ std::vector<double> findInflectionPt(const bezierCubic* curve) {
 	if (isEqual(denom, 0)) {
 		// linear formula
 		if (!isEqual(b, 0)) ret.push_back(round((c / b) * 100) / 100);
-	} else {
+	}
+	else {
 		if (det >= 0) {
 			// return only if return value is real number
 			double ret1 = (b - sqrt(det)) / denom;
@@ -130,7 +133,7 @@ double getApproxError(const bezierCubic* curve, double start, double end, Point 
 	return abs(min_error);
 }
 
-vector<double> curveSegmentation(const bezierCubic* curve){
+vector<double> curveSegmentation(const bezierCubic* curve) {
 	vector<double> x = findExtremePt(curve, 'x');
 	vector<double> y = findExtremePt(curve, 'y');
 	vector<double> seg = findInflectionPt(curve);
@@ -152,7 +155,7 @@ vector<double> curveSegmentation(const bezierCubic* curve){
 			Point j_p = calc_junction_point(pt1, pt2, tan1, tan2);
 			error += getApproxError(curve, seg[i], seg[i + 1], j_p);
 		}
-		error = error/seg.size();
+		error = error / seg.size();
 		if (error > 1.0) {
 			// subdivide the arc approximation
 			int length = seg.size();

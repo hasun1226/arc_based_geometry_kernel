@@ -11,13 +11,16 @@ bool isOnArc(ArcStruct arc, double angle) {
     if (arc.concave) {
         if (start > end) {
             ret = (angle >= end) && (start >= angle);
-        } else {
+        }
+        else {
             ret = (angle >= end) || (start >= angle);
         }
-    } else {
+    }
+    else {
         if (start > end) {
             ret = (angle >= start) || (end >= angle);
-        } else {
+        }
+        else {
             ret = (angle >= start) && (end >= angle);
         }
     }
@@ -93,7 +96,8 @@ vector<Point> doArcIntersect(ArcStruct first, ArcStruct second) {
         if (isOnArc(first, ang1) && isOnArc(second, ang2)) {
             ret.push_back(intersection);
         }
-    } else {
+    }
+    else {
         double x_s = c2.y * sqrt(in_sqrt);
         double y_s = c2.x * sqrt(in_sqrt);
         Point intersection1 = Point{ (x_f - x_s) / denom, (y_f + y_s) / denom };
@@ -103,7 +107,8 @@ vector<Point> doArcIntersect(ArcStruct first, ArcStruct second) {
         if (isOnArc(first, ang1) && isOnArc(second, ang2)) {
             if (ret.size() == 0) {
                 ret.push_back(intersection1);
-            } else if (!isEqual(ret[0], intersection1)) {
+            }
+            else if (!isEqual(ret[0], intersection1)) {
                 ret.push_back(intersection1);
             }
         }
@@ -115,7 +120,8 @@ vector<Point> doArcIntersect(ArcStruct first, ArcStruct second) {
         if (isOnArc(first, ang1) && isOnArc(second, ang2)) {
             if (ret.size() == 0) {
                 ret.push_back(intersection2);
-            } else if (!isEqual(ret[0], intersection2)) {
+            }
+            else if (!isEqual(ret[0], intersection2)) {
                 ret.push_back(intersection2);
             }
         }
@@ -171,7 +177,8 @@ bool isClockwise(Point point, Vector tangent, Point center) {
     double det = p1.x * p2.y - p1.y * p2.x;
     if (det < 0) {
         return true;
-    } else {
+    }
+    else {
         // in case of det = 0, the arcs have different direction
         return false;
     }
