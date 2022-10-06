@@ -1,0 +1,43 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(Precision_arcarc.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.cpp
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(73,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(82,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(93,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(99,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(108,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(109,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(121,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(123,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(134,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(135,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(146,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(148,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(213,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(215,88): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(215,48): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(217,88): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(217,48): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(227,50): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(227,29): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(235,50): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(235,29): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(245,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(246,76): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(246,42): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(247,72): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(247,40): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(250,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(251,76): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(251,42): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(252,72): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(252,40): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(259,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(260,70): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(260,39): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(267,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(271,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(279,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(280,68): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\main.cpp(280,38): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Precision_arcarc.vcxproj -> C:\Users\3MAP164\Documents\Visual Studio 2019\Repo\Precision_arcarc_double\Debug\Precision_arcarc_double.exe
+          1개 파일이 복사되었습니다.

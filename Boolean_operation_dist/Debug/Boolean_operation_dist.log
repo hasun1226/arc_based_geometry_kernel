@@ -1,0 +1,44 @@
+﻿  biarc.cpp
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(201,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(216,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(296,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(336,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(340,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(368,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(416,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(422,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(435,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(436,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(439,22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(459,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(471,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\biarc.cpp(482,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  geometry.cpp
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\geometry.cpp(98,21): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(22,42): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(22,28): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(23,29): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(23,17): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(31,39): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(31,27): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(40,39): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(40,27): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(43,34): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(43,19): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(68,31): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(68,18): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(69,28): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(69,14): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(72,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(76,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(82,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(86,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(92,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(93,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(95,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(96,62): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\main.cpp(96,43): warning C4244: '인수': 'double'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  Boolean_operation_dist.vcxproj -> C:\Users\3map\Desktop\정하선_논문\Boolean_operation_dist\Debug\Boolean_operation_dist.exe
+          1개 파일이 복사되었습니다.
