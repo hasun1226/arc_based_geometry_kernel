@@ -226,23 +226,25 @@ int main(int argc, char* argv[]) {
     init();
 
     // the arcs are constructed so that each arc is fully included in a quadrant
-    arcs.push_back(ArcStruct{ 2, Point{891.04, -100}, 772.606 * 772.606, radian2Angle(2.67794), radian2Angle(2.59013) });
-    arcs.push_back(ArcStruct{ 2, Point{480.511, 152.509}, 290.637 * 290.637, radian2Angle(2.59009), radian2Angle(2.35619) });
-    arcs.push_back(ArcStruct{ 2, Point{395.829, 237.191}, 170.878 * 170.878, radian2Angle(2.35619), radian2Angle(2.10537) });
-    arcs.push_back(ArcStruct{ 2, Point{350, 314.6}, 80.9198 * 80.9198, radian2Angle(2.10541), radian2Angle(1.5708) });
     arcs.push_back(ArcStruct{ 2, Point{350, 314.6}, 80.9207 * 80.9207, radian2Angle(1.5708), radian2Angle(1.03619) });
     arcs.push_back(ArcStruct{ 2, Point{304.168, 237.188}, 170.882 * 170.882, radian2Angle(1.03621), radian2Angle(0.785398) });
     arcs.push_back(ArcStruct{ 2, Point{219.504, 152.524}, 290.615 * 290.615, radian2Angle(0.785398), radian2Angle(0.551486) });
     arcs.push_back(ArcStruct{ 2, Point{-190.904, -100}, 772.455 * 772.455, radian2Angle(0.551478), radian2Angle(0.463648) });
 
+    arcs.push_back(ArcStruct{ 2, Point{891.04, -100}, 772.606 * 772.606, radian2Angle(2.67794), radian2Angle(2.59013) });
+    arcs.push_back(ArcStruct{ 2, Point{480.511, 152.509}, 290.637 * 290.637, radian2Angle(2.59009), radian2Angle(2.35619) });
+    arcs.push_back(ArcStruct{ 2, Point{395.829, 237.191}, 170.878 * 170.878, radian2Angle(2.35619), radian2Angle(2.10537) });
+    arcs.push_back(ArcStruct{ 2, Point{350, 314.6}, 80.9198 * 80.9198, radian2Angle(2.10541), radian2Angle(1.5708) });
+
     arcs.push_back(ArcStruct{ 2, Point{891.04, 550}, 772.606 * 772.606, radian2Angle(3.69305), radian2Angle(3.60524) });
     arcs.push_back(ArcStruct{ 2, Point{480.511, 298.029}, 290.637 * 290.637, radian2Angle(3.92699), radian2Angle(3.69309) });
     arcs.push_back(ArcStruct{ 2, Point{395.829, 213.347}, 170.878 * 170.878, radian2Angle(4.17781), radian2Angle(3.92699) });
     arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9198 * 80.9198, radian2Angle(4.71238), radian2Angle(4.17777) });
-    arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9207 * 80.9207, radian2Angle(5.24699), radian2Angle(4.71239) });
+
+    /*arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9207 * 80.9207, radian2Angle(5.24699), radian2Angle(4.71239) });
     arcs.push_back(ArcStruct{ 2, Point{304.168, 213.347}, 170.882 * 170.882, radian2Angle(5.49779), radian2Angle(5.24697) });
     arcs.push_back(ArcStruct{ 2, Point{219.504, 298.029}, 290.615 * 290.615, radian2Angle(5.73170), radian2Angle(5.49779) });
-    arcs.push_back(ArcStruct{ 2, Point{-190.904, 550}, 772.455 * 772.455, radian2Angle(5.81954), radian2Angle(5.73171) });
+    arcs.push_back(ArcStruct{ 2, Point{-190.904, 550}, 772.455 * 772.455, radian2Angle(5.81954), radian2Angle(5.73171) });*/
 
     glutReshapeFunc(reshape_callback);
     glutKeyboardFunc(keyboard_callback);
