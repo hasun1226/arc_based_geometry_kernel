@@ -121,8 +121,8 @@ void drawLine(Point start, Point end) {
 void drawBoundingVolume(vector<Volume>& bvh, int start, int end, bool draw, bool finalLevel) {
     for (int i = start; i < end; i++) {
         if (draw) {
-            if (bvh[i].support0 >= 0) {
-                if (bvh[i].support1 > 0) {
+            if (!isEqual(bvh[i].support0, -1)) {
+                if (!isEqual(bvh[i].support1, -1)) {
                     double y_val = min(bvh[i].support1 * multiplier - bvh[i].maximum.x, bvh[i].maximum.y);
                         drawLine(Point{ bvh[i].support0, bvh[i].minimum.y }, Point{ bvh[i].support0, y_val });
                 }
@@ -131,11 +131,11 @@ void drawBoundingVolume(vector<Volume>& bvh, int start, int end, bool draw, bool
                         drawLine(Point{ bvh[i].support0, bvh[i].maximum.y }, Point{ bvh[i].support0, y_val });
                 }
             }
-            if (bvh[i].support1 >= 0)
+            if (!isEqual(bvh[i].support1, -1))
                 drawLine(Point{ bvh[i].support1 * multiplier - bvh[i].maximum.y, bvh[i].maximum.y },
                     Point{ bvh[i].maximum.x, bvh[i].support1 * multiplier - bvh[i].maximum.x });
-            if (bvh[i].support2 >= 0) {
-                if (bvh[i].support1 > 0) {
+            if (!isEqual(bvh[i].support2, -1)) {
+                if (!isEqual(bvh[i].support1, -1)) {
                     double x_val = min(bvh[i].support1 * multiplier - bvh[i].maximum.y, bvh[i].maximum.x);
                         drawLine(Point{ bvh[i].minimum.x, bvh[i].support2 }, Point{ x_val, bvh[i].support2 });
                 }
@@ -144,11 +144,11 @@ void drawBoundingVolume(vector<Volume>& bvh, int start, int end, bool draw, bool
                         drawLine(Point{ bvh[i].maximum.x, bvh[i].support2 }, Point{ x_val, bvh[i].support2 });
                 }
             }
-            if (bvh[i].support3 >= 0)
+            if (!isEqual(bvh[i].support3, -1))
                 drawLine(Point{ bvh[i].maximum.y - bvh[i].support3 * multiplier, bvh[i].maximum.y },
                     Point{ bvh[i].minimum.x, bvh[i].support3 * multiplier + bvh[i].minimum.x });
-            if (bvh[i].support4 >= 0) {
-                if (bvh[i].support5 > 0) {
+            if (!isEqual(bvh[i].support4, -1)) {
+                if (!isEqual(bvh[i].support5, -1)) {
                     double y_val = max(bvh[i].support5 * multiplier - bvh[i].minimum.x, bvh[i].minimum.y);
                         drawLine(Point{ bvh[i].support4, y_val }, Point{ bvh[i].support4, bvh[i].maximum.y });
                 }
@@ -157,11 +157,11 @@ void drawBoundingVolume(vector<Volume>& bvh, int start, int end, bool draw, bool
                     drawLine(Point{ bvh[i].support4, bvh[i].minimum.y }, Point{ bvh[i].support4, y_val });
                 }
             }
-            if (bvh[i].support5 >= 0)
+            if (!isEqual(bvh[i].support5, -1))
                 drawLine(Point{ bvh[i].minimum.x, bvh[i].support5 * multiplier - bvh[i].minimum.x },
                     Point{ bvh[i].support5 * multiplier - bvh[i].minimum.y, bvh[i].minimum.y });
-            if (bvh[i].support6 >= 0) {
-                if (bvh[i].support5 > 0) {
+            if (!isEqual(bvh[i].support6, -1)) {
+                if (!isEqual(bvh[i].support5, -1)) {
                     double x_val = max(bvh[i].support5 * multiplier - bvh[i].minimum.y, bvh[i].minimum.x);
                         drawLine(Point{ x_val, bvh[i].support6 }, Point{ bvh[i].maximum.x, bvh[i].support6 });
                 }
@@ -170,10 +170,9 @@ void drawBoundingVolume(vector<Volume>& bvh, int start, int end, bool draw, bool
                     drawLine(Point{ x_val, bvh[i].support6 }, Point{ bvh[i].minimum.x, bvh[i].support6 });
                 }
             }
-            if (bvh[i].support7 >= 0) {
+            if (!isEqual(bvh[i].support7, -1))
                 drawLine(Point{ bvh[i].minimum.y - bvh[i].support7 * multiplier, bvh[i].minimum.y },
                     Point{ bvh[i].maximum.x, bvh[i].maximum.x + bvh[i].support7 * multiplier });
-            }
         }
         if (!finalLevel) {
             if (i % 2 == 1) {
@@ -241,10 +240,10 @@ int main(int argc, char* argv[]) {
     arcs.push_back(ArcStruct{ 2, Point{395.829, 213.347}, 170.878 * 170.878, radian2Angle(4.17781), radian2Angle(3.92699) });
     arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9198 * 80.9198, radian2Angle(4.71238), radian2Angle(4.17777) });
 
-    /*arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9207 * 80.9207, radian2Angle(5.24699), radian2Angle(4.71239) });
+    arcs.push_back(ArcStruct{ 2, Point{350, 135.938}, 80.9207 * 80.9207, radian2Angle(5.24699), radian2Angle(4.71239) });
     arcs.push_back(ArcStruct{ 2, Point{304.168, 213.347}, 170.882 * 170.882, radian2Angle(5.49779), radian2Angle(5.24697) });
     arcs.push_back(ArcStruct{ 2, Point{219.504, 298.029}, 290.615 * 290.615, radian2Angle(5.73170), radian2Angle(5.49779) });
-    arcs.push_back(ArcStruct{ 2, Point{-190.904, 550}, 772.455 * 772.455, radian2Angle(5.81954), radian2Angle(5.73171) });*/
+    arcs.push_back(ArcStruct{ 2, Point{-190.904, 550}, 772.455 * 772.455, radian2Angle(5.81954), radian2Angle(5.73171) });
 
     glutReshapeFunc(reshape_callback);
     glutKeyboardFunc(keyboard_callback);

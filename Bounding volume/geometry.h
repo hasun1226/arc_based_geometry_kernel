@@ -96,3 +96,5 @@ Angle radian2Angle(double angle);
 
 Point transform(const Point rotAxis, Angle a, Point translate);
 Point calcPoint(ArcStruct arc, Angle angle);
+
+double helper_min(double a, double b);
